@@ -1,8 +1,19 @@
+*p {
+   color: gray;
+}
 
+
+
+
+img {
+    height: 50px;
+    width: 150px
+}
 
 .footer__block-icon {
-    background-color: black;
-    height: 75px;
+    background-color: rgb(151, 150, 150);
+    height: 50px;
+    
     display: flex;
     align-items: center;
 }
@@ -16,12 +27,21 @@
 .footer__back {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid gray;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
 }
 
 .footer__back-accept {
     display: flex;
     justify-content: space-between;
     text-decoration: underline;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
     
 }
 
@@ -34,7 +54,8 @@ footer {
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 margin-top: 20px;
-
+margin-top: 20px;
+border-top: 1px solid gray;
 
 }
 
@@ -62,11 +83,25 @@ margin-top: 20px;
     }
  }
 
-.footer__block-help .icon-set:not(:first-child) {
+.footer__block-help :not(:first-child) {
     color: gray;
 }
 
-.color {
-    color: gray;
+.footer__block-help {
+    font-weight: 600;
+
+font-family: 'Golos Text', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.footer__block-items {
+    font-weight: 600;
+    font-family: 'Golos Text', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.footer__block-items  {
+    color: gray
 }
 
